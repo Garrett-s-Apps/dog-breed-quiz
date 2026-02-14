@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import CockapooLogo from './CockapooLogo';
 
 export default function StartScreen({ onStart }) {
   const [isLeaving, setIsLeaving] = useState(false);
@@ -11,7 +12,7 @@ export default function StartScreen({ onStart }) {
   return (
     <div className={`start-screen ${isLeaving ? 'leaving' : ''}`}>
       <div className="start-content">
-        <div className="paw-icon">🐾</div>
+        <div className="paw-icon"><CockapooLogo size={80} /></div>
         <h1>What Dog Breed<br />Are You?</h1>
         <p className="subtitle">
           Answer 13 personality questions to discover which dog breed

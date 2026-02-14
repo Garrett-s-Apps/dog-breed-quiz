@@ -1,0 +1,85 @@
+export default function CockapooLogo({ size = 64, className = '' }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      fill="none"
+      width={size}
+      height={size}
+      className={className}
+    >
+      {/* Ears */}
+      <ellipse cx="128" cy="260" rx="80" ry="120" fill="#C4956A" transform="rotate(-15 128 260)"/>
+      <ellipse cx="128" cy="260" rx="60" ry="100" fill="#D4A574" transform="rotate(-15 128 260)"/>
+      <circle cx="90" cy="220" r="18" fill="#C4956A"/>
+      <circle cx="75" cy="260" r="16" fill="#C4956A"/>
+      <circle cx="85" cy="300" r="15" fill="#C4956A"/>
+      <circle cx="110" cy="330" r="14" fill="#C4956A"/>
+      <circle cx="100" cy="195" r="14" fill="#C4956A"/>
+
+      <ellipse cx="384" cy="260" rx="80" ry="120" fill="#C4956A" transform="rotate(15 384 260)"/>
+      <ellipse cx="384" cy="260" rx="60" ry="100" fill="#D4A574" transform="rotate(15 384 260)"/>
+      <circle cx="422" cy="220" r="18" fill="#C4956A"/>
+      <circle cx="437" cy="260" r="16" fill="#C4956A"/>
+      <circle cx="427" cy="300" r="15" fill="#C4956A"/>
+      <circle cx="402" cy="330" r="14" fill="#C4956A"/>
+      <circle cx="412" cy="195" r="14" fill="#C4956A"/>
+
+      {/* Head */}
+      <circle cx="256" cy="270" r="160" fill="#E8C9A0"/>
+
+      {/* Curly fur */}
+      <circle cx="200" cy="120" r="35" fill="#D4A574"/>
+      <circle cx="256" cy="105" r="38" fill="#D4A574"/>
+      <circle cx="312" cy="120" r="35" fill="#D4A574"/>
+      <circle cx="165" cy="145" r="30" fill="#D4A574"/>
+      <circle cx="347" cy="145" r="30" fill="#D4A574"/>
+      <circle cx="225" cy="100" r="28" fill="#E8C9A0"/>
+      <circle cx="290" cy="100" r="28" fill="#E8C9A0"/>
+      <circle cx="256" cy="90" r="25" fill="#D4A574"/>
+      <circle cx="180" cy="110" r="22" fill="#E8C9A0"/>
+      <circle cx="332" cy="110" r="22" fill="#E8C9A0"/>
+      <circle cx="115" cy="200" r="22" fill="#E8C9A0"/>
+      <circle cx="397" cy="200" r="22" fill="#E8C9A0"/>
+      <circle cx="108" cy="240" r="18" fill="#E8C9A0"/>
+      <circle cx="404" cy="240" r="18" fill="#E8C9A0"/>
+
+      {/* Cheeks */}
+      <circle cx="185" cy="310" r="45" fill="#F0D5B0"/>
+      <circle cx="327" cy="310" r="45" fill="#F0D5B0"/>
+
+      {/* Muzzle */}
+      <ellipse cx="256" cy="330" rx="70" ry="55" fill="#F5E6D0"/>
+
+      {/* Eyes */}
+      <circle cx="205" cy="250" r="28" fill="white"/>
+      <circle cx="210" cy="252" r="20" fill="#3D2B1F"/>
+      <circle cx="216" cy="244" r="7" fill="white"/>
+      <circle cx="205" cy="256" r="4" fill="white" opacity="0.5"/>
+      <circle cx="307" cy="250" r="28" fill="white"/>
+      <circle cx="302" cy="252" r="20" fill="#3D2B1F"/>
+      <circle cx="308" cy="244" r="7" fill="white"/>
+      <circle cx="297" cy="256" r="4" fill="white" opacity="0.5"/>
+
+      {/* Eyebrows */}
+      <path d="M178 222 Q195 210 225 218" stroke="#A07850" strokeWidth="4" fill="none" strokeLinecap="round"/>
+      <path d="M334 222 Q317 210 287 218" stroke="#A07850" strokeWidth="4" fill="none" strokeLinecap="round"/>
+
+      {/* Nose */}
+      <ellipse cx="256" cy="310" rx="22" ry="17" fill="#3D2B1F"/>
+      <ellipse cx="256" cy="306" rx="10" ry="5" fill="#5C4033" opacity="0.5"/>
+
+      {/* Mouth */}
+      <path d="M256 327 Q240 348 228 340" stroke="#3D2B1F" strokeWidth="3.5" fill="none" strokeLinecap="round"/>
+      <path d="M256 327 Q272 348 284 340" stroke="#3D2B1F" strokeWidth="3.5" fill="none" strokeLinecap="round"/>
+
+      {/* Tongue */}
+      <ellipse cx="256" cy="355" rx="14" ry="18" fill="#FF8FA3"/>
+      <path d="M256 350 Q256 365 256 373" stroke="#E87090" strokeWidth="2" fill="none" strokeLinecap="round"/>
+
+      {/* Blush */}
+      <circle cx="175" cy="300" r="18" fill="#FFB5B5" opacity="0.3"/>
+      <circle cx="337" cy="300" r="18" fill="#FFB5B5" opacity="0.3"/>
+    </svg>
+  );
+}
