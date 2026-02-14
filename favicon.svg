@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="fur" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#F5D5A0"/>
+      <stop offset="100%" stop-color="#D4A054"/>
+    </radialGradient>
+    <radialGradient id="earFur" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#E8C080"/>
+      <stop offset="100%" stop-color="#C48A3A"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Left ear (floppy, curly) -->
+  <ellipse cx="24" cy="48" rx="16" ry="24" fill="url(#earFur)" transform="rotate(-10 24 48)"/>
+  <!-- Left ear curly tufts -->
+  <circle cx="14" cy="38" r="6" fill="#C48A3A"/>
+  <circle cx="18" cy="56" r="5.5" fill="#C48A3A"/>
+  <circle cx="12" cy="48" r="5" fill="#D49A44"/>
+  <circle cx="22" cy="64" r="4.5" fill="#C48A3A"/>
+
+  <!-- Right ear (floppy, curly) -->
+  <ellipse cx="76" cy="48" rx="16" ry="24" fill="url(#earFur)" transform="rotate(10 76 48)"/>
+  <!-- Right ear curly tufts -->
+  <circle cx="86" cy="38" r="6" fill="#C48A3A"/>
+  <circle cx="82" cy="56" r="5.5" fill="#C48A3A"/>
+  <circle cx="88" cy="48" r="5" fill="#D49A44"/>
+  <circle cx="78" cy="64" r="4.5" fill="#C48A3A"/>
+
+  <!-- Head (round, fluffy) -->
+  <circle cx="50" cy="50" r="30" fill="url(#fur)"/>
+
+  <!-- Curly fur tufts on head -->
+  <circle cx="30" cy="30" r="8" fill="#E8C080"/>
+  <circle cx="50" cy="22" r="9" fill="#EDCB8A"/>
+  <circle cx="70" cy="30" r="8" fill="#E8C080"/>
+  <circle cx="26" cy="42" r="6" fill="#E2BB75"/>
+  <circle cx="74" cy="42" r="6" fill="#E2BB75"/>
+  <circle cx="38" cy="24" r="7" fill="#E5C07A"/>
+  <circle cx="62" cy="24" r="7" fill="#E5C07A"/>
+  <circle cx="50" cy="18" r="6" fill="#F0D090"/>
+
+  <!-- Muzzle area -->
+  <ellipse cx="50" cy="58" rx="14" ry="11" fill="#FBE8C8"/>
+
+  <!-- Eyes - big, round, expressive -->
+  <circle cx="39" cy="46" r="6.5" fill="#2C1810"/>
+  <circle cx="61" cy="46" r="6.5" fill="#2C1810"/>
+  <!-- Eye shine -->
+  <circle cx="41" cy="43.5" r="2.2" fill="white"/>
+  <circle cx="63" cy="43.5" r="2.2" fill="white"/>
+  <!-- Small secondary shine -->
+  <circle cx="37.5" cy="47.5" r="1" fill="white" opacity="0.6"/>
+  <circle cx="59.5" cy="47.5" r="1" fill="white" opacity="0.6"/>
+
+  <!-- Eyebrows (subtle) -->
+  <path d="M33 39 Q39 36 45 39" stroke="#B8863A" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M55 39 Q61 36 67 39" stroke="#B8863A" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <ellipse cx="50" cy="55" rx="4.5" ry="3.5" fill="#2C1810"/>
+  <!-- Nose shine -->
+  <ellipse cx="51.5" cy="53.8" rx="1.5" ry="1" fill="#5C4830" opacity="0.5"/>
+
+  <!-- Happy mouth -->
+  <path d="M43 60 Q46 65 50 63 Q54 65 57 60" stroke="#2C1810" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+  <!-- Tongue peeking out -->
+  <ellipse cx="50" cy="65" rx="3.5" ry="3" fill="#E87878"/>
+  <line x1="50" y1="63" x2="50" y2="67" stroke="#D06060" stroke-width="0.5"/>
+
+  <!-- Cheek blush -->
+  <circle cx="34" cy="55" r="4" fill="#F0A0A0" opacity="0.25"/>
+  <circle cx="66" cy="55" r="4" fill="#F0A0A0" opacity="0.25"/>
+</svg>
